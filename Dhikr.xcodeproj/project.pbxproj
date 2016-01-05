@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE20417E1B23E416008F1107 /* AdhkarDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20417C1B23E416008F1107 /* AdhkarDetailTableViewController.m */; };
+		AE20417F1B23E416008F1107 /* AdhkarDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE20417D1B23E416008F1107 /* AdhkarDetailTableViewController.xib */; };
+		AE2041831B23F25F008F1107 /* HeaderDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE2041821B23F25F008F1107 /* HeaderDetailView.xib */; };
+		AE2041851B244CDD008F1107 /* popupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE2041841B244CDD008F1107 /* popupView.xib */; };
+		AE2041891B2458B3008F1107 /* CustomDhikrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2041871B2458B3008F1107 /* CustomDhikrViewController.m */; };
+		AE20418A1B2458B3008F1107 /* CustomDhikrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE2041881B2458B3008F1107 /* CustomDhikrViewController.xib */; };
+		AE807C801B1038C40047C226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE807C7F1B1038C40047C226 /* main.m */; };
+		AE807C831B1038C40047C226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE807C821B1038C40047C226 /* AppDelegate.m */; };
+		AE807C861B1038C40047C226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE807C851B1038C40047C226 /* ViewController.m */; };
+		AE807C891B1038C40047C226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE807C871B1038C40047C226 /* Main.storyboard */; };
+		AE807C8B1B1038C40047C226 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE807C8A1B1038C40047C226 /* Images.xcassets */; };
+		AE807C8E1B1038C40047C226 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE807C8C1B1038C40047C226 /* LaunchScreen.xib */; };
+		AE807C9A1B1038C40047C226 /* DhikrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE807C991B1038C40047C226 /* DhikrTests.m */; };
+		AE807CA51B104BB30047C226 /* DhikrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE807CA41B104BB30047C226 /* DhikrViewController.m */; };
+		AE807CAE1B14251F0047C226 /* AdhkarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AE807CAD1B14251F0047C226 /* AdhkarItem.m */; };
+		AE807CB11B142A850047C226 /* AdhkarItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AE807CB01B142A850047C226 /* AdhkarItemStore.m */; };
+		AE807CB31B15B5770047C226 /* AdhkarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE807CB21B15B5770047C226 /* AdhkarTableViewController.m */; };
+		AE807CB61B15C99D0047C226 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE807CB51B15C99D0047C226 /* HeaderView.xib */; };
+		AEDDA3901B2953E000C3215E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDDA38F1B2953E000C3215E /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE807C941B1038C40047C226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE807C721B1038C40047C226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE807C791B1038C40047C226;
+			remoteInfo = Dhikr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE20417B1B23E416008F1107 /* AdhkarDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdhkarDetailTableViewController.h; sourceTree = "<group>"; };
+		AE20417C1B23E416008F1107 /* AdhkarDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdhkarDetailTableViewController.m; sourceTree = "<group>"; };
+		AE20417D1B23E416008F1107 /* AdhkarDetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdhkarDetailTableViewController.xib; sourceTree = "<group>"; };
+		AE2041821B23F25F008F1107 /* HeaderDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderDetailView.xib; sourceTree = "<group>"; };
+		AE2041841B244CDD008F1107 /* popupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = popupView.xib; sourceTree = "<group>"; };
+		AE2041861B2458B3008F1107 /* CustomDhikrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDhikrViewController.h; sourceTree = "<group>"; };
+		AE2041871B2458B3008F1107 /* CustomDhikrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDhikrViewController.m; sourceTree = "<group>"; };
+		AE2041881B2458B3008F1107 /* CustomDhikrViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomDhikrViewController.xib; sourceTree = "<group>"; };
+		AE807C7A1B1038C40047C226 /* Dhikr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dhikr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE807C7E1B1038C40047C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE807C7F1B1038C40047C226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE807C811B1038C40047C226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE807C821B1038C40047C226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE807C841B1038C40047C226 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE807C851B1038C40047C226 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE807C881B1038C40047C226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE807C8A1B1038C40047C226 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE807C8D1B1038C40047C226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AE807C931B1038C40047C226 /* DhikrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DhikrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE807C981B1038C40047C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE807C991B1038C40047C226 /* DhikrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhikrTests.m; sourceTree = "<group>"; };
+		AE807CA31B104BB30047C226 /* DhikrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DhikrViewController.h; sourceTree = "<group>"; };
+		AE807CA41B104BB30047C226 /* DhikrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DhikrViewController.m; sourceTree = "<group>"; };
+		AE807CAC1B14251F0047C226 /* AdhkarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdhkarItem.h; sourceTree = "<group>"; };
+		AE807CAD1B14251F0047C226 /* AdhkarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdhkarItem.m; sourceTree = "<group>"; };
+		AE807CAF1B142A850047C226 /* AdhkarItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdhkarItemStore.h; sourceTree = "<group>"; };
+		AE807CB01B142A850047C226 /* AdhkarItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdhkarItemStore.m; sourceTree = "<group>"; };
+		AE807CB21B15B5770047C226 /* AdhkarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdhkarTableViewController.m; sourceTree = "<group>"; };
+		AE807CB41B15B5970047C226 /* AdhkarTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdhkarTableViewController.h; sourceTree = "<group>"; };
+		AE807CB51B15C99D0047C226 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		AEDDA38F1B2953E000C3215E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE807C771B1038C40047C226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDDA3901B2953E000C3215E /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE807C901B1038C40047C226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE807C711B1038C40047C226 = {
+			isa = PBXGroup;
+			children = (
+				AEDDA38F1B2953E000C3215E /* iAd.framework */,
+				AE807C7C1B1038C40047C226 /* Dhikr */,
+				AE807C961B1038C40047C226 /* DhikrTests */,
+				AE807C7B1B1038C40047C226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE807C7B1B1038C40047C226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE807C7A1B1038C40047C226 /* Dhikr.app */,
+				AE807C931B1038C40047C226 /* DhikrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE807C7C1B1038C40047C226 /* Dhikr */ = {
+			isa = PBXGroup;
+			children = (
+				AE20417B1B23E416008F1107 /* AdhkarDetailTableViewController.h */,
+				AE20417C1B23E416008F1107 /* AdhkarDetailTableViewController.m */,
+				AE20417D1B23E416008F1107 /* AdhkarDetailTableViewController.xib */,
+				AE807C811B1038C40047C226 /* AppDelegate.h */,
+				AE807C821B1038C40047C226 /* AppDelegate.m */,
+				AE807C841B1038C40047C226 /* ViewController.h */,
+				AE807C851B1038C40047C226 /* ViewController.m */,
+				AE807C871B1038C40047C226 /* Main.storyboard */,
+				AE807C8A1B1038C40047C226 /* Images.xcassets */,
+				AE807C8C1B1038C40047C226 /* LaunchScreen.xib */,
+				AE807C7D1B1038C40047C226 /* Supporting Files */,
+				AE807CA31B104BB30047C226 /* DhikrViewController.h */,
+				AE807CA41B104BB30047C226 /* DhikrViewController.m */,
+				AE807CAC1B14251F0047C226 /* AdhkarItem.h */,
+				AE807CAD1B14251F0047C226 /* AdhkarItem.m */,
+				AE807CAF1B142A850047C226 /* AdhkarItemStore.h */,
+				AE807CB01B142A850047C226 /* AdhkarItemStore.m */,
+				AE807CB21B15B5770047C226 /* AdhkarTableViewController.m */,
+				AE807CB41B15B5970047C226 /* AdhkarTableViewController.h */,
+				AE807CB51B15C99D0047C226 /* HeaderView.xib */,
+				AE2041821B23F25F008F1107 /* HeaderDetailView.xib */,
+				AE2041841B244CDD008F1107 /* popupView.xib */,
+				AE2041861B2458B3008F1107 /* CustomDhikrViewController.h */,
+				AE2041871B2458B3008F1107 /* CustomDhikrViewController.m */,
+				AE2041881B2458B3008F1107 /* CustomDhikrViewController.xib */,
+			);
+			path = Dhikr;
+			sourceTree = "<group>";
+		};
+		AE807C7D1B1038C40047C226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE807C7E1B1038C40047C226 /* Info.plist */,
+				AE807C7F1B1038C40047C226 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE807C961B1038C40047C226 /* DhikrTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE807C991B1038C40047C226 /* DhikrTests.m */,
+				AE807C971B1038C40047C226 /* Supporting Files */,
+			);
+			path = DhikrTests;
+			sourceTree = "<group>";
+		};
+		AE807C971B1038C40047C226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE807C981B1038C40047C226 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE807C791B1038C40047C226 /* Dhikr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE807C9D1B1038C40047C226 /* Build configuration list for PBXNativeTarget "Dhikr" */;
+			buildPhases = (
+				AE807C761B1038C40047C226 /* Sources */,
+				AE807C771B1038C40047C226 /* Frameworks */,
+				AE807C781B1038C40047C226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dhikr;
+			productName = Dhikr;
+			productReference = AE807C7A1B1038C40047C226 /* Dhikr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE807C921B1038C40047C226 /* DhikrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE807CA01B1038C40047C226 /* Build configuration list for PBXNativeTarget "DhikrTests" */;
+			buildPhases = (
+				AE807C8F1B1038C40047C226 /* Sources */,
+				AE807C901B1038C40047C226 /* Frameworks */,
+				AE807C911B1038C40047C226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE807C951B1038C40047C226 /* PBXTargetDependency */,
+			);
+			name = DhikrTests;
+			productName = DhikrTests;
+			productReference = AE807C931B1038C40047C226 /* DhikrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE807C721B1038C40047C226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = 9qbd;
+				TargetAttributes = {
+					AE807C791B1038C40047C226 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					AE807C921B1038C40047C226 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = AE807C791B1038C40047C226;
+					};
+				};
+			};
+			buildConfigurationList = AE807C751B1038C40047C226 /* Build configuration list for PBXProject "Dhikr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE807C711B1038C40047C226;
+			productRefGroup = AE807C7B1B1038C40047C226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE807C791B1038C40047C226 /* Dhikr */,
+				AE807C921B1038C40047C226 /* DhikrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE807C781B1038C40047C226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE807C891B1038C40047C226 /* Main.storyboard in Resources */,
+				AE807C8E1B1038C40047C226 /* LaunchScreen.xib in Resources */,
+				AE20418A1B2458B3008F1107 /* CustomDhikrViewController.xib in Resources */,
+				AE2041831B23F25F008F1107 /* HeaderDetailView.xib in Resources */,
+				AE20417F1B23E416008F1107 /* AdhkarDetailTableViewController.xib in Resources */,
+				AE807C8B1B1038C40047C226 /* Images.xcassets in Resources */,
+				AE2041851B244CDD008F1107 /* popupView.xib in Resources */,
+				AE807CB61B15C99D0047C226 /* HeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE807C911B1038C40047C226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE807C761B1038C40047C226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE807CB11B142A850047C226 /* AdhkarItemStore.m in Sources */,
+				AE807CB31B15B5770047C226 /* AdhkarTableViewController.m in Sources */,
+				AE807CA51B104BB30047C226 /* DhikrViewController.m in Sources */,
+				AE807C861B1038C40047C226 /* ViewController.m in Sources */,
+				AE2041891B2458B3008F1107 /* CustomDhikrViewController.m in Sources */,
+				AE20417E1B23E416008F1107 /* AdhkarDetailTableViewController.m in Sources */,
+				AE807CAE1B14251F0047C226 /* AdhkarItem.m in Sources */,
+				AE807C831B1038C40047C226 /* AppDelegate.m in Sources */,
+				AE807C801B1038C40047C226 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE807C8F1B1038C40047C226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE807C9A1B1038C40047C226 /* DhikrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE807C951B1038C40047C226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE807C791B1038C40047C226 /* Dhikr */;
+			targetProxy = AE807C941B1038C40047C226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE807C871B1038C40047C226 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE807C881B1038C40047C226 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE807C8C1B1038C40047C226 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE807C8D1B1038C40047C226 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE807C9B1B1038C40047C226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE807C9C1B1038C40047C226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE807C9E1B1038C40047C226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Dhikr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE807C9F1B1038C40047C226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Dhikr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE807CA11B1038C40047C226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DhikrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dhikr.app/Dhikr";
+			};
+			name = Debug;
+		};
+		AE807CA21B1038C40047C226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DhikrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dhikr.app/Dhikr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE807C751B1038C40047C226 /* Build configuration list for PBXProject "Dhikr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE807C9B1B1038C40047C226 /* Debug */,
+				AE807C9C1B1038C40047C226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE807C9D1B1038C40047C226 /* Build configuration list for PBXNativeTarget "Dhikr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE807C9E1B1038C40047C226 /* Debug */,
+				AE807C9F1B1038C40047C226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE807CA01B1038C40047C226 /* Build configuration list for PBXNativeTarget "DhikrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE807CA11B1038C40047C226 /* Debug */,
+				AE807CA21B1038C40047C226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE807C721B1038C40047C226 /* Project object */;
+}
